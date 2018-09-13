@@ -1,0 +1,23 @@
+
+p,h1,li{ /* ELEMENTOS */
+    color: blue;
+    border: 2px solid red;
+    width: 200PX;
+}
+#ht{
+    border: 3px solid black; /*ID*/
+    color: red;
+    width: 200PX;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+.t{ /*class conjunto de id*/
+    color: green;
+    background: gray;
+    border: 0px;
+    width: 200PX;
+}
+#ht:hover{ /*selector de pseudo-clase*/
+    background-color: aqua;
+    color: red;
+    width: 200PX;
+}
