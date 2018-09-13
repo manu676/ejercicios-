@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Elementos basicos de HTML</h1>
+    <h1 id="ht">Elementos basicos de HTML</h1>
     <P>
         En esta pagina se muestran los ejemplos de los principales Elementos
         para la estructurar el contenido de una pagina WEB  
     </P>
-    <h2>Encabezados</h2>
+    <h2 class="t">Encabezados</h2>
     <p>
         Existen 6 niveles y se debe respetar el orden en el que se presentan
     </p>
     <h2>LISTAS</h2>
     <h3>DESORDENADAS</h3>
     <ul>
-        <li>C#</li>    
-        <li>C++</li>
-        <li>java</li>
+        <li class="t">C#</li>    
+        <li class="t" >C++</li>
+        <li class="t">java</li>
     </ul>
     <h3>ORDENADAS</h3>
     <ol>
@@ -55,7 +56,7 @@
             </div>
             <div>
                     <label>Nombre:</label>
-                    <input type= "text" id="nombre" />
+                    <input type= "text" id="nombre" maxlength="10" size="55"/>
             </div>
             <div>
                 <label for="email">EMAIL:</label>
@@ -68,6 +69,14 @@
             <div>
                 <button id="enviar">ENVIAR</button>
             </div>
-        </form>
-</body>
-</html>
+            <div>
+                <label for="clave">Contraseña</label>
+                <input type="password" id="clave" />
+            </div>
+            <div>
+                <label for="color">Elige un color:</label>
+                <input type="color" id="color" />
+            </div>
+         </form>
+     </body> 
+ </html>
